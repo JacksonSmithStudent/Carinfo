@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pic {
+    width: 100vw;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+nav {
+    position: absolute;
+    padding-top: 0;
+    z-index: 2;
+    top: 2.5%;
+    display: flex;
+}
+
+#logo {
+    height: 52px;
+}
+
+.title {
+    color: white;
+}
